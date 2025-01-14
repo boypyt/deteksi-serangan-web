@@ -1,6 +1,9 @@
 # deteksi-serangan-web
 by Henry Saptono
 
+Simulasi penerapan AI dalam keamanan siiber menggunakan teknik Machine Learning berbasis Supervised Learning menggunakan model Random Forest
+
+
 ## cara pakai:
 ### Menjalankan waf
 
