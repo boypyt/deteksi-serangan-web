@@ -7,6 +7,8 @@ Simulasi penerapan AI dalam keamanan siiber menggunakan teknik Machine Learning 
 ## cara pakai:
 ### Menjalankan waf
 
+Sebelum menjalakan pastikan model ML sudah terbentuk !!
+
   $ sudo python demo_simple_waf.py
 
 ### Melihat log waf
