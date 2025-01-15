@@ -7,7 +7,7 @@ Simulasi penerapan AI dalam keamanan siiber menggunakan teknik Machine Learning 
 ## cara pakai:
 ### Menjalankan waf
 
-Sebelum menjalakan pastikan model ML sudah terbentuk !!
+Sebelum menjalakan pastikan model ML sudah terbentuk dan pastikan lokasi / path file nya benar pada kode
 
   $ sudo python demo_simple_waf.py
 
@@ -16,6 +16,8 @@ Sebelum menjalakan pastikan model ML sudah terbentuk !!
   $ tail -f http_traffic.log
 
 ### Menguji menyerang
+
+Sebelumnya diasumsikan pada komputer lokal Anda sudah berjalan web server (nginx atau apache atau yang lainnya)
 
   $ curl -i -X POST http://127.0.0.1/data -d "q=' union select db()--'"
 
